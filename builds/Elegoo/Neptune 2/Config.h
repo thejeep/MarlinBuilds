@@ -13,7 +13,7 @@
 //
 // Machine
 //
-#define MOTHERBOARD                              BOARD_MKS_ROBIN_NANO
+#define MOTHERBOARD                              BOARD_BTT_SKR_V4_TURBO
 
 //
 // Extruder
@@ -54,13 +54,13 @@
 //
 // Stepper Drivers
 //
-#define E0_DRIVER_TYPE                           A4988
+#define E0_DRIVER_TYPE                           TMC2209_STANALONE
 #define E_ENABLE_ON                              LOW
-#define X_DRIVER_TYPE                            TMC2208_STANDALONE
+#define X_DRIVER_TYPE                            TMC2209_STANDALONE
 #define X_ENABLE_ON                              LOW
-#define Y_DRIVER_TYPE                            TMC2208_STANDALONE
+#define Y_DRIVER_TYPE                            TMC2209_STANDALONE
 #define Y_ENABLE_ON                              LOW
-#define Z_DRIVER_TYPE                            A4988
+#define Z_DRIVER_TYPE                            TMC2209_STANDALONE
 #define Z_ENABLE_ON                              LOW
 
 //
